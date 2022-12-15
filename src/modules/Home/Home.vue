@@ -34,7 +34,6 @@ import CarouselMobile from './Components/CarouselMobile.vue'
 import PitchbarDesktop from "./Components/PitchbarDesktop.vue";
 import PitchbarMobile from "./Components/PitchbarMobile.vue";
 
-
 const axios = inject('axios')
 const banners = ref([])
 const pitchbars = ref([])
@@ -63,8 +62,5 @@ onMounted(async () => {
 <style scoped>
 .size {
 width: 100%;
-
 }
-
-
 </style>

@@ -53,8 +53,8 @@
 
         <offcanvas-header class="offcanvas-header"/>
 
-        <div class="offcanvas-body p-0">
-          <menu-bar class="d-flex flex-column"/>
+        <div class="offcanvas-body p-0 menubar-mobile">
+          <menu-bar class="menubar-mobile"/>
         </div>
       </div>
       <!--        ate aq-->
@@ -62,7 +62,7 @@
     </div>
 
     <div class="bg-warning teste offcanvas-lg justify-content-center" >
-      <menu-bar />
+      <menu-bar class="menubar-desktop"/>
     </div>
 
   </nav>
@@ -72,13 +72,30 @@
 </template>
 
 <script setup>
-import MenuBar from "./MenuBar.vue";
+import MenuBar from "./Menubar.vue";
 import OffcanvasHeader from './Components/OffcanvasHeader.vue'
 
 
 </script>
 
 <style scoped>
+.menubar-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 2px;
+  gap: 1.2rem;
+}
+
+.menubar-desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px
+}
+
 .btn {
   right: 2px;
 

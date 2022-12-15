@@ -18,12 +18,11 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-
   </div>
 </template>
 
 <script setup>
-import {onMounted, ref, watch} from "vue";
+import {onMounted, ref} from "vue";
 
 const props = defineProps({
   banner: {

@@ -9,7 +9,6 @@
           <div class="pitchbar-item">
             <img :src="pitchbar.icone" alt="" class="icons">
             <div class="pitchbar-item-text">
-
               <p class="label">{{ pitchbar.label }}</p>
               <p class="destaque">{{ pitchbar.destaque }}</p>
             </div>
@@ -27,7 +26,6 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </button>
-
   </div>
 </template>
 
