@@ -1,0 +1,155 @@
+{
+  "banners": {
+    "home": [
+      {
+        "desktop": {
+          "default": [
+            "https://tools.wellcommerce.com.br/teste/banner/banner-1.jpg",
+            "https://tools.wellcommerce.com.br/teste/banner/banner-1.jpg"
+          ]
+        },
+        "mobile": {
+          "default": [
+            "https://tools.wellcommerce.com.br/teste/banner/banner-mobile.jpg",
+            "https://tools.wellcommerce.com.br/teste/banner/banner-mobile.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  "pitchbar": {
+    "itens" : [
+      {
+        "icone" : "https://tools.wellcommerce.com.br/teste/pitchbar/icone-pitchbar.svg",
+        "label": "Faça parte do",
+        "destaque": "time"
+      },
+      {
+        "icone" : "https://tools.wellcommerce.com.br/teste/pitchbar/icone-pitchbar-2.svg",
+        "label": "em Kits especiais para você!",
+        "destaque": "Receitas e equipamentos"
+      },
+      {
+        "icone" : "https://tools.wellcommerce.com.br/teste/pitchbar/icone-pitchbar-3.svg",
+        "label": "Parcele em até",
+        "destaque": "12x no cartão"
+      },
+      {
+        "icone" : "https://tools.wellcommerce.com.br/teste/pitchbar/icone-pitchbar-4.svg",
+        "label": "Conheça nossos",
+        "destaque": "Curso"
+      }
+    ]
+  },
+  "menu": {
+    "itens": [
+      {
+        "label": "Item 1",
+        "icone": "https://tools.wellcommerce.com.br/teste/menu/icone-menu-1.svg",
+        "sub": []
+      },
+      {
+        "label": "Item 2",
+        "icone": "https://tools.wellcommerce.com.br/teste/menu/icone-menu-2.svg",
+        "sub": []
+      },
+      {
+        "label": "Item 3",
+        "icone": "https://tools.wellcommerce.com.br/teste/menu/icone-menu-3.svg",
+        "sub": []
+      },
+      {
+        "label": "Item 4",
+        "icone": "https://tools.wellcommerce.com.br/teste/menu/icone-menu-4.svg",
+        "sub": [
+          {
+            "label": "Item 1",
+            "icone": "",
+            "sub": [
+              {
+                "label": "Item 2",
+                "icone": ""
+              },
+              {
+                "label": "Item 3",
+                "icone": ""
+              }
+            ]
+          },
+          {
+            "label": "Item 2",
+            "icone": "",
+            "sub": [
+              {
+                "label": "Item 3",
+                "icone": ""
+              }
+            ]
+          },
+          {
+            "label": "Item 3",
+            "icone": "",
+            "sub": [
+              {
+                "label": "Item 4",
+                "icone": ""
+              }
+            ]
+          },
+          {
+            "label": "Origem",
+            "icone": "",
+            "sub": [
+              {
+                "label": "Inglaterra",
+                "icone": "https://tools.wellcommerce.com.br/teste/menu/inglaterra.png"
+              },
+              {
+                "label": "Alemanha",
+                "icone": "https://tools.wellcommerce.com.br/teste/menu/alemanha.png"
+              },
+              {
+                "label": "Estados Unidos",
+                "icone": "https://tools.wellcommerce.com.br/teste/menu/estados-unidos.png"
+              },
+              {
+                "label": "Austrália",
+                "icone": "https://tools.wellcommerce.com.br/teste/menu/australia.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Item 5",
+        "icone": "https://tools.wellcommerce.com.br/teste/menu/icone-menu-5.svg",
+        "sub": []
+      },
+      {
+        "label": "Item 6",
+        "icone": "https://tools.wellcommerce.com.br/teste/menu/icone-menu-6.svg",
+        "sub": []
+      },
+      {
+        "label": "Item 7",
+        "icone": "",
+        "sub": []
+      },
+      {
+        "label": "Item 8",
+        "icone": "",
+        "sub": []
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+

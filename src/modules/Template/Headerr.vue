@@ -98,7 +98,6 @@ import OffcanvasHeader from './Components/OffcanvasHeader.vue'
 
 .btn {
   right: 2px;
-
 }
 
 .offcanvas {
