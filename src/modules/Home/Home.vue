@@ -38,20 +38,38 @@ const axios = inject('axios')
 const banners = ref([])
 const pitchbars = ref([])
 
+// onMounted(async () => {
+//   await axios
+//       .get('https://tools.wellcommerce.com.br/teste/banner.json')
+//       .then(response => {
+//         banners.value = response.data
+//       })
+// })
+//
+// onMounted(async () => {
+//   await axios
+//       .get('https://tools.wellcommerce.com.br/teste/pitchbar.json')
+//       .then(response => {
+//         pitchbars.value = response.data
+//       })
+// })
+
 onMounted(async () => {
   await axios
-      .get('https://tools.wellcommerce.com.br/teste/banner.json')
+      .get('http://localhost:3000/banners')
       .then(response => {
-        banners.value = response.data
+        banners.value = response.data.home
       })
+  console.log(banners.value, 'banners')
 })
 
 onMounted(async () => {
   await axios
-      .get('https://tools.wellcommerce.com.br/teste/pitchbar.json')
+      .get('http://localhost:3000/pitchbar')
       .then(response => {
         pitchbars.value = response.data
       })
+  console.log(pitchbars.value, 'pitcbars')
 })
 
 

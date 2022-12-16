@@ -34,7 +34,7 @@ const props = defineProps({
 const desktops = ref('')
 
 onMounted(async () => {
-  desktops.value = props.banner.home[0].desktop.default
+  desktops.value = props.banner.desktop.default
 })
 </script>
 

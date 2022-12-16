@@ -18,6 +18,7 @@
       </div>
     </div>
 
+
     <button class="carousel-control-prev control d-lg-none d-xl-block d-xl-none d-md-none d-lg-block" type="button" data-bs-target="#carouselPitchbar" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -42,7 +43,8 @@ const props = defineProps({
 const pitchbars = ref('')
 
 onMounted(async () => {
-  pitchbars.value = props.pitchbar.itens
+  pitchbars.value = props.pitchbar
+  console.log(props.pitchbar)
 })
 </script>
 

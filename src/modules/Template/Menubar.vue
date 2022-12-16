@@ -55,12 +55,22 @@ function irparapagina(idItem) {
   })
 }
 
+// onMounted(async () => {
+//   await axios
+//       .get('https://tools.wellcommerce.com.br/teste/menu.json')
+//       .then(response => {
+//         itens.value = response.data.menu.itens
+//         subs.value = response.data.menu.itens.sub
+//       })
+//   console.log(itens.value, 'menu')
+// })
+
 onMounted(async () => {
   await axios
-      .get('https://tools.wellcommerce.com.br/teste/menu.json')
+      .get('http://localhost:3000/menu')
       .then(response => {
-        itens.value = response.data.menu.itens
-        subs.value = response.data.menu.itens.sub
+        itens.value = response.data.itens
+        subs.value = response.data.itens.sub
       })
   console.log(itens.value, 'menu')
 })

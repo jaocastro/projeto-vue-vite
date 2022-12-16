@@ -34,7 +34,7 @@ const props = defineProps({
 const mobiles = ref('')
 
 onMounted(async () => {
-  mobiles.value = props.banner.home[0].mobile.default
+  mobiles.value = props.banner.mobile.default
 })
 </script>
 

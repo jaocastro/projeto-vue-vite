@@ -35,7 +35,7 @@ const props = defineProps({
 const pitchbars = ref('')
 
 onMounted(async () => {
-  pitchbars.value = props.pitchbar.itens
+  pitchbars.value = props.pitchbar
 })
 
 </script>
